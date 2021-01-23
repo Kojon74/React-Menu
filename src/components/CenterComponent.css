@@ -1,0 +1,47 @@
+.center-component {
+  width: 600px;
+  max-width: 90%;
+  margin: auto;
+}
+
+h1 {
+  width: fit-content;
+  margin: 20px auto;
+  color: #222;
+  line-height: 50px;
+}
+
+.button-container {
+  width: 400px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  border: none;
+  color: #c59d5f;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #c59d5f;
+  color: #ddd;
+}
+
+button:focus {
+  outline: none;
+}
+
+.underline {
+  width: 50%;
+  margin: auto;
+  border-bottom: 5px solid #c59d5f;
+}
